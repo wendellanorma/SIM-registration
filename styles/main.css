@@ -1,0 +1,240 @@
+body {
+  background-color: white !important;
+  /* background: url('../images/newwave.svg') no-repeat fixed;
+  background-position: center bottom;
+  background-size: cover; */
+  font-family: 'League Spartan', sans-serif;
+}
+
+.row {
+  margin-right: 0px;
+}
+
+.navbar-brand {
+  margin-left: 8.4%;
+}
+
+.navbar {
+  /* padding: 3rem 1rem !important; */
+  padding: 2rem 1rem 0rem 1rem !important;
+  background-color: transparent !important;
+  z-index: 1;
+  color: white !important;
+}
+
+.img-logo {
+  height: 33px;
+  position: relative;
+  bottom: 4px;
+}
+
+.brand-logo {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold !important;
+  color: white;
+  font-size: 27px;
+  position: relative;
+  bottom: 3px;
+}
+
+/* DIVIDDER SHAPE */
+.custom-shape-divider-top-1646463469 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1646463469 svg {
+  position: relative;
+  display: block;
+  width: calc(201% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-top-1646463469 .shape-fill {
+  fill: #2F5A62;
+}
+
+/* SECOND DIVIDER */
+.custom-shape-divider-bottom-1646463762 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1646463762 svg {
+  position: relative;
+  display: block;
+  width: calc(212% + 1.3px);
+  height: 210px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1646463762 .shape-fill {
+  fill: #2F5A62;
+}
+
+/* FIRST COLUMN TEXT PART */
+h1 {
+  color: #2F5A62;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.container {
+  margin-top: 8rem;
+}
+
+h3 {
+  line-height: 1.7;
+  color: #2F5A62;
+  font-size: 24px;
+}
+
+.sub-text {
+  padding-right: 30px;
+}
+
+.btn-verify {
+  width: 285px;
+  height: 46px;
+  border-radius: 5px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  background-color: #2F5A62;
+  border-width: 0px;
+  color: white;
+  margin-top: 2rem;
+}
+
+.btn-verify:hover {
+  background-color: #c1ebe2;
+  color: #2F5A62;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1024px) {
+  .sub-text {
+    padding-right: 0 !important;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .container {
+    padding-left: 5rem;
+    padding-right: 10rem;
+  }
+
+  .btn-verify {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .svg-verphone {
+    display: none;
+  }
+
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .btn-verify {
+    width: 100%;
+  }
+
+  .col-md-6 {
+    flex: none !important;
+    max-width: none !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .svg-verphone {
+    display: none;
+  }
+
+  h1, h3 {
+    text-align: center;
+  }
+  h3{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .svg-verphone {
+    width: 0px;
+  }
+
+  .container {
+    padding-left: 5rem;
+    padding-right: 3rem;
+  }
+
+  h1 {
+    font-size: 31px;
+    text-align: center;
+  }
+
+  .brand-logo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .brand-logo {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .sub-text {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .brand-logo {
+    font-size: 13px;
+  }
+
+  .btn-verify {
+    font-size: 12px;
+  }
+}

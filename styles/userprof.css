@@ -1,0 +1,314 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: #c1ebe2;
+  padding-bottom: 3rem;
+}
+
+.loader {
+  pointer-events: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: an1 1s ease infinite;
+}
+
+@keyframes an1 {
+  0% {
+    transform: rotate(0turn);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.navbar-collapse {
+  justify-content: right;
+}
+
+.navbar {
+    padding: 0rem 2rem !important;
+    background-color: #2f5a62;
+
+}
+
+.form-control:focus {
+  border-color: #c1ebe2!important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #c1ebe2!important;
+}
+
+.form-control-file, .form-control-range {
+    width: 187px!important;
+}
+
+.nav-link {
+  margin-right: 5rem;
+  font-weight: bold;
+  color: #c1ebe2;
+}
+
+.brandname {
+  position: relative;
+  top: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+.div1 {
+  padding: 1.2rem;
+  border-radius: 0 0 5px 5px;
+}
+
+
+.log-button {
+    /* padding: 0; */
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #c1ebe2;
+    position: relative;
+    right: 6px;
+    margin-top: 5px;
+}
+
+.nav-link:hover{
+  color: white !important;
+}
+
+.log-button:hover{
+  color: white !important;
+
+}
+
+.selected {
+  color: white !important;
+}
+
+/* minimized navbar button collapse */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+/* BODY PART : USER PROFILE */
+.container {
+  background-color: white;
+  margin-top: 4rem;
+  padding: 4rem;
+}
+
+.labelings {
+  font-weight: bold;
+  color: #2f5a62;
+}
+
+.information {
+  font-weight: 400;
+  color: #669591;
+  position: relative;
+  bottom: 10px;
+}
+
+/* REPORT PART */
+h2 {
+  font-weight: bold;
+  color: #2f5a62;
+  font-size: 25px;
+  margin-bottom: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.infodiv1 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+textarea {
+  resize: none;
+}
+
+/* SCRENESHOT BUTTON WITH HIDDEN CHOOSE FILE */
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  top: 1rem;
+  /* left: 14px; */
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 20px;
+  position: absolute;
+  top: 2.5px;
+  left: 3px;
+  width: 100%;
+  opacity: 0;
+}
+
+.upload-btn-wrapper input[type=file]:hover {
+  cursor: pointer;
+}
+
+.ss-btn {
+  background-color: #2f5a62;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+  margin-top: 44px;
+  border-width: 0;
+}
+
+.ss-btn:hover {
+  background-color: #c1ebe2;
+  cursor: pointer;
+  color: #2f5a62;
+}
+
+.send-btn {
+  background-color: #2f5a62;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+    border-width: 0;
+}
+
+.send-btn:hover {
+  background-color: #c1ebe2;
+  cursor: pointer;
+  color: #2f5a62;
+}
+
+.form-group {
+    position: relative;
+    bottom: 9px;
+}
+
+.successmsg {
+  text-align: center;
+  font-weight: bold;
+  color: #18CC5D;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.errormessage{
+  text-align: center;
+  font-weight: bold;
+  color: #ff5f56;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+
+/* MEDIA QUERY FOR NAV BAR */
+@media only screen and (max-width: 991.5px) {
+.log-button {
+  margin-bottom: 1rem!important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.log-button {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  padding: 0rem 4rem !important;
+}
+
+
+}
+
+@media only screen and (max-width: 570px) {
+  .brandname {
+    font-size: 14px;
+  }
+
+.navbar {
+  padding: 0rem 2rem !important;
+}
+
+.container {
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+}
+
+@media only screen and (max-width: 430px) {
+
+
+
+
+}
+
+@media only screen and (max-width: 380px) {
+  .custom-toggler.navbar-toggler {
+      width: 40px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  .navbar {
+    padding: 0rem 1rem !important;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    position: relative;
+    right: 8.5px;
+}
+
+}
+
+@media only screen and (max-width: 345px) {
+.brandname {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 320px) {
+
+  h2 {
+      font-size: 15px;
+  }
+.brandname {
+  font-size: 0px;
+}
+.navbar-nav .nav-link, .log-button {
+    font-size: 16px;
+}
+
+.ss-btn {
+  font-size: 11px;
+}
+}
+/* CSS FOR BODY PART */
+
+
+/* .container {
+    display: grid !important;
+    margin-top: 4rem;
+    grid-gap: 50px;;
+} */

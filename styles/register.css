@@ -1,0 +1,308 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: #c1ebe2;
+  padding-bottom: 3rem;
+}
+
+/* SCRENESHOT BUTTON WITH HIDDEN CHOOSE FILE */
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  top: 1rem;
+  /* left: 14px; */
+}
+
+.form-control-file, .form-control-range {
+    width: 187px!important;
+}
+
+.form-control:focus {
+  border-color: #c1ebe2!important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #c1ebe2!important;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 20px;
+  position: absolute;
+  top: 2.5px;
+  left: 3px;
+  width: 100%;
+  opacity: 0;
+}
+
+.upload-btn-wrapper input[type=file]:hover {
+  cursor: pointer;
+}
+
+.ss-btn {
+  background-color: #2f5a62;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+  border-width: 0;
+  margin-bottom: 2rem;
+}
+
+.ss-btn:hover {
+  background-color: #c1ebe2;
+  cursor: pointer;
+  color: #2f5a62;
+}
+
+
+
+.navbar-collapse {
+  justify-content: right;
+}
+
+.navbar {
+    padding: 0rem 2rem !important;
+    background-color: #2f5a62;
+}
+
+.nav-link {
+  margin-right: 5rem;
+  font-weight: bold;
+  color: #C1EBE3;
+}
+
+.brandname {
+  position: relative;
+  top: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+.div1 {
+  padding: 1.2rem;
+  border-radius: 0 0 5px 5px;
+}
+
+
+.log-button {
+    /* padding: 0; */
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #C1EBE3;
+    position: relative;
+    right: 6px;
+    margin-top: 5px;
+}
+
+.nav-link:hover{
+  color: white !important;
+  /* background-color: white;
+  border-radius: 8px; */
+}
+
+.log-button:hover{
+  color: white !important;
+  /* background-color: white;
+  height: 40px;
+  border-radius: 8px; */
+}
+
+.selected {
+  color: white !important;
+  /* background-color: white;
+  border-radius: 8px; */
+}
+
+/* minimized navbar button collapse */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+/* REGISTER BODY PART */
+
+.container {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 3rem 3rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+  color: #2f5a62;
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+
+/* PHP success */
+.regsuccess {
+  text-align: center;
+  font-weight: bold;
+  color: #18CC5D;
+  margin-top: 20px;
+}
+/* PHP account already exist */
+.nsoexist{
+  text-align: center;
+  font-weight: bold;
+  color: #ff5f56;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+
+
+.row {
+  justify-content: center;
+}
+
+/* SECOND ROW */
+.srow {
+  margin-top: 2rem;
+}
+
+
+/* NSO BUTTON */
+.nsobutton{
+  /* width: 50%!important; */
+  border-width: 0;
+}
+
+.labelings {
+  margin-top: 1rem;
+}
+
+
+/* BUTTONS */
+.send-btn {
+  background-color: #2f5a62;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-width: 0;
+}
+
+.send-btn:hover {
+  background-color: #c1ebe2;
+  cursor: pointer;
+  color: #2f5a62;
+}
+
+
+
+/* MEDIA QUERY FOR NAV BAR */
+@media only screen and (max-width: 991.5px) {
+.log-button {
+  margin-bottom: 1rem!important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.log-button {
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  padding: 0rem 4rem !important;
+}
+
+/* .navbar-nav {
+  padding-left: 20px;
+}
+
+.form-btnn {
+  padding-left: 20px;
+} */
+
+}
+
+@media only screen and (max-width: 570px) {
+.brandname {
+  font-size: 14px;
+}
+
+.navbar {
+  padding: 0rem 2rem !important;
+}
+
+.container {
+  padding: 2rem !important;
+}
+
+.header, h2 {
+  margin-bottom: 0;
+}
+
+
+}
+
+@media only screen and (max-width: 430px) {
+
+  h2 {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .custom-toggler.navbar-toggler {
+      width: 40px;
+  }
+
+  h2 {
+    font-size: 15px !important;
+}
+
+.db {
+  font-size: 11px;
+}
+
+  .navbar {
+    padding: 0rem 1rem !important;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    position: relative;
+    right: 8.5px;
+}
+
+}
+
+@media only screen and (max-width: 345px) {
+.brandname {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 320px) {
+
+.brandname {
+  font-size: 0px;
+}
+.navbar-nav .nav-link, .log-button {
+    font-size: 16px;
+}
+
+.ss-btn {
+  font-size: 11px;
+}
+
+h2 {
+    font-size: 13px !important;
+}
+
+.send-btn {
+  font-size: 13px;
+}
+}

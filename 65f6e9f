@@ -1,0 +1,73 @@
+[33m2c58bee[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mheroku/main[m[33m)[m saving local fingerprint to s3
+[33ma0e6384[m saving local fingerprint to s3
+[33m65f6e9f[m update
+[33ma8d37e3[m update
+[33m30faafa[m update
+[33mc143290[m update
+[33mf54d903[m update
+[33m63c66dd[m update
+[33mc4e4eaf[m fingerprint local
+[33m44145a4[m fingerprint local
+[33m7652948[m fingerprint local
+[33m288c746[m new update
+[33mf3f1acc[m new update
+[33m3a0e164[m new update
+[33m694c285[m new update
+[33m8c7b05d[m new update
+[33m5fb2f23[m new update
+[33m34d3aa1[m  registration users local and foreing update
+[33m2a277dd[m code update and comments added
+[33m10790da[m report image upload
+[33m70db262[m report image upload
+[33mecfb35c[m report image upload
+[33m8d0652c[m report image upload
+[33m792a470[m report image upload
+[33m70162db[m report image upload
+[33mffa93e0[m report image upload
+[33md8acb61[m report image upload
+[33m216d3b0[m report image upload
+[33m8e18a37[m report image upload
+[33m10048c1[m report image upload
+[33m3fcbe33[m report image upload
+[33m7b985e3[m report image upload
+[33mc60179c[m report image upload
+[33mbc3bd51[m s3 setup
+[33mb63ea72[m s3 setup
+[33mcb66415[m s3 setup
+[33mbdb477e[m removed commets
+[33m1d699d9[m error message
+[33m6340e38[m includes new updates
+[33m41d11c6[m includes new updates
+[33m3feaf35[m includes new updates
+[33m66acbb8[m includes new updates
+[33md0955fe[m includes new updates
+[33m42eb6e2[m includes new updates
+[33m22bc948[m includes new updates
+[33md8be2b3[m includes new updates
+[33m97cdb25[m updated
+[33m9e055e6[m updated
+[33m478429a[m admin seller db
+[33m88031c7[m updated version
+[33ma85e3ce[m updated connection
+[33m209f060[m enduser
+[33m1ed37f9[m enduser
+[33mad9f463[m heroku
+[33m4d6857e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/raycianavera/Sim_Card_Registration_System_Final_Version into main
+[33m7f67177[m update foreign reg (address)
+[33m15afd44[m updated error messages
+[33mb5154d6[m Merge branch 'main' of https://github.com/raycianavera/Sim_Card_Registration_System_Final_Version into main
+[33mdf86523[m update search empty
+[33m98caa91[m update
+[33me2410f0[m updated address field on foreign
+[33m4852bab[m edit:BackEnd_Report.new variable. IndexFunction registered_simusers_db
+[33mf109c4f[m update
+[33mb38d559[m mega update
+[33m30fc48d[m update
+[33m1645fdf[m error 2 and 4 removed
+[33ma53de18[m Edit: respective logout. Database name(report, admin).
+[33m560c9f3[m update
+[33m6c5cb53[m mega update
+[33ma5b8985[m updated
+[33mc858c0f[m update
+[33m029f31f[m Add files via upload
+[33m9d3e1bf[m Initial commit
